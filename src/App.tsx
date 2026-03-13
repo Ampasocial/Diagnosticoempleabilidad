@@ -39,7 +39,7 @@ export default function App() {
             <div className="relative lg:ml-auto w-full max-w-lg">
               <div className="aspect-square rounded-2xl bg-slate-800 overflow-hidden relative shadow-2xl border border-white/10">
                 <img 
-                  src="/profile.jpg" 
+                  src={`${import.meta.env.BASE_URL}profile.jpg`} 
                   alt="Coach y Estratega de Carrera" 
                   className="object-cover w-full h-full opacity-90"
                 />
